@@ -1,0 +1,26 @@
+/* colours */
+$c-bg: #F3F3FA;
+$c-text: #707070;
+$c-text-light: lighten($c-text, 20%);
+$c-border: darken(white, 5%);
+$c-border-dark: lighten($c-text, 52%);
+$c-primary: #73B0F4;
+$c-dark: #333440;
+
+// social media
+$c-facebook: #3b5998;
+$c-twitter: #55acee;
+$c-instagram: #405de6;
+$c-youtube: #cd201f;
+$c-pinterest: #bd081c;
+$c-linkedin: #0077b5;
+$c-microsoft: #D73A17;
+
+$c-red: #d95565;
+$c-green: #8CC57D;
+$c-blue: #73B0F4;
+$c-darkblue: #3A4488;
+$c-orange: #F0AA61;
+$c-tint: #FBFBFF;
+$c-purple: #6363AC;
+$c-darkpurple: #556CB6;

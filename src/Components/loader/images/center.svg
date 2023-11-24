@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="467px" height="464px" viewBox="0 0 467 464" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>center</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="center" transform="translate(-52.000000, -52.000000)" fill="#A0A0A0" fill-rule="nonzero">
+            <ellipse id="Oval" cx="285.117647" cy="283.75" rx="128.117647" ry="125.75"></ellipse>
+            <path d="M285.134525,515.13125 C156.377882,515.13125 52,411.679646 52,284.065625 C52,156.451604 156.377882,52.9999999 285.134525,52.9999999 C413.891167,52.9999999 518.269049,156.451604 518.269049,284.065625 C518.269049,411.679646 413.891167,515.13125 285.134525,515.13125 Z M285.134525,496.45928 C403.48659,496.45928 499.429896,401.367402 499.429896,284.065625 C499.429896,166.763848 403.48659,71.6719696 285.134525,71.6719696 C166.782459,71.6719696 70.8391535,166.763848 70.8391535,284.065625 C70.8391535,401.367402 166.782459,496.45928 285.134525,496.45928 Z" id="ring" transform="translate(285.134525, 284.065625) rotate(15.000000) translate(-285.134525, -284.065625) "></path>
+        </g>
+    </g>
+</svg>

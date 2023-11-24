@@ -1,0 +1,93 @@
+@import '../global.scss';
+
+.card {
+
+  position: relative;
+  padding: $scale2;
+  z-index: 1;
+  margin-bottom: $scale2;
+  background: white;
+  border-radius: $radius;
+
+  &:last-of-type {
+
+    margin-bottom: 0;
+
+  }
+
+  header {
+
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    color: $c-text;
+    padding-bottom: $scale1;
+    margin-bottom: $scale3;
+    background-color: white;
+    border-bottom: 1px dotted $c-border;
+
+    h1 {
+
+      float: left;
+      margin: 0;
+      font-size: $scale1;
+      font-weight: 600;
+
+    }
+
+    a {
+
+      float: right;
+      margin-top: 0.2em;
+      font-size: 0.9em;
+
+    }
+  }
+
+  table {
+
+    min-height: $scale5;
+    margin-top: -$scale1;
+    margin-bottom: -$scale2;
+
+    @media(max-width: $mobile){
+
+      margin-top: 0;
+
+    }
+  }
+}
+
+.center {
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.shadow {
+
+  box-shadow: 0em 0.15em 0.4em rgba(0, 0, 0, 0.05);
+
+}
+
+.loading {
+
+  min-height: $scale13;
+
+}
+
+.restrictWidth {
+
+  @media (min-width: $mobile){
+
+    max-width: $scale15;
+
+  }
+}
+
+.noPadding {
+
+  padding: 0;
+
+}

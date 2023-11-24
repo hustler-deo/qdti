@@ -1,0 +1,13 @@
+{
+  "API_URL": "http://44.241.186.53:4141/api/v1/",
+  "SERVER_API_URL": "http://44.241.186.53:4141/api/v1/",
+  "SUBSCRIPTION_ID": 1,
+  "THEME_COLORS": {
+    "PRIMARY": "#007bff",
+    "SECONDARY": "#fc3"
+  },
+  "NODE_COLORS": {
+    "BODY": "#a7adba",
+    "HANDLE": "#0c0c0c"
+  }
+}

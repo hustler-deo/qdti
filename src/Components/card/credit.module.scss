@@ -1,0 +1,80 @@
+@import 'components/global.scss';
+
+.creditCard {
+
+  position: relative;
+  display: block;
+  width: $scale12 + $scale3;
+  height: $scale10;
+  padding: $scale1 $scale2;
+  margin: $scale2 auto $scale5;
+  color: white;
+  letter-spacing: 0.025em;
+  border-radius: $radius * 2;
+  background-image: linear-gradient(48deg, #7373B4 0%, #6564AC 100%);
+ 
+  &:before, &:after {
+
+    content: ''; 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+    width: 85%;
+    position: absolute;
+    border-radius: $radius * 2;
+    background: $c-purple;
+
+  }
+
+  &:before {
+
+    top: -$scale-2;
+    left: -$scale-2;
+
+  }
+
+  &:after {
+
+    bottom: -$scale-2;
+    right: -$scale-2;
+
+  }
+}
+
+.brand {
+
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: $scale2;
+
+}
+
+.number {
+
+  font-size: $scale1;
+  font-weight: 600;
+  margin-bottom: $scale-2;
+
+}
+
+.col {
+
+  float: left;
+  margin-right: $scale;
+
+}
+
+.title {
+
+  font-weight: 600;
+  font-size: $scale-1;
+
+}
+
+.value {
+
+  font-size: $scale-1;
+
+}
