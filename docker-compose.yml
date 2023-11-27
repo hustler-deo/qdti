@@ -1,6 +1,5 @@
 version: "3.9"
 #services 10.0
-
 services:
   sonarqube:
     container_name: "sonarqube-container"        
