@@ -4,6 +4,7 @@ services:
   sonarqube:
     container_name: "sonarqube-container"        
     image: "sonarqube:8.9.10-community"
+
     
     volumes:
       - ./sonarqube/extensions:/opt/sonarqube/extensions
